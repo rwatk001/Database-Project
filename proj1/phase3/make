@@ -1,0 +1,5 @@
+#!/bin/sh
+export CLASSPATH=$CLASSPATH:$PWD/pg73jdbc3.jar
+export PGPORT=5732
+export PGNAME=rudresh
+javac EmbeddedSQL.java
